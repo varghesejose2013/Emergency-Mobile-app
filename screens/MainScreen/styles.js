@@ -1,0 +1,86 @@
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+    header:{
+        backgroundColor: '#191970'
+    },
+    headerText:{
+        fontFamily:'Actor',
+        fontWeight:'bold',
+        color:'#fffafa',
+        textAlign:'center',
+        marginLeft:'20%',
+        marginTop:'5%'
+    },
+    visit:{
+        textAlign:'center',
+        fontFamily:'Actor',
+        fontSize:10,
+        color:'#00008b',
+        marginTop:'6%',
+        marginLeft:'2%',
+        fontWeight:'bold',
+        marginRight:'-4%'
+    },
+    visit1:{
+        textAlign:'center',
+        fontFamily:'Actor',
+        fontSize:10,
+        color:'#00008b',
+        marginTop:'3%',
+        marginLeft:'20%',
+        fontWeight:'bold',
+        marginRight:'-5%'
+    },
+   
+    about:{
+        textAlign:'left',
+        fontFamily:'Actor',
+        fontSize:10,
+        color:'#00008b',
+        fontWeight:'bold',
+        marginTop:'4%',
+        marginBottom:'30%'
+    },
+    social:{
+        textAlign:'left',
+        fontFamily:'Actor',
+        fontSize:10,
+        color:'#00008b',
+        fontWeight:'bold',
+        marginBottom:'30%'
+    },
+alert:{
+    textAlign:'center',
+    textAlignVertical:'center',
+    color:'#00008b',
+    fontSize:10,
+    marginLeft:'4%',
+    fontWeight:'bold',
+    marginTop:'5%'
+},
+
+weather:{
+    textAlign:'center',
+    marginLeft:'5%',
+    fontSize:10,
+    fontWeight:'bold',
+    color:'#00008b'
+},
+eme:{
+    textAlign:'center',
+    marginLeft:'-10%',
+    fontSize:10,
+    fontWeight:'bold',
+    marginTop:'8%',
+    color:'#00008b'
+},
+noti:{
+    textAlign:'center',
+    marginLeft:'5%',
+    fontSize:10,
+    fontWeight:'bold',
+    color:'#00008b'
+}
+
+});
+export default styles;

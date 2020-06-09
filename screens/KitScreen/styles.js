@@ -1,0 +1,69 @@
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+    header:{
+        backgroundColor: '#191970'
+    },
+    headerText:{
+        fontFamily:'Actor',
+        fontWeight:'bold',
+        color:'#fffafa'
+    },
+    location:{
+        marginTop:'2%',
+        textAlign:'center',
+        fontFamily:'Actor',
+        fontWeight:'bold',
+        color:'white'
+    },
+    Saintgits:{
+        marginTop:'2%',
+        fontFamily:'Actor',
+        textAlign:'center',
+        color:'white'
+    },
+    day:{
+        marginTop:'2%',
+        textAlign:'center',
+        color:'white'
+    },
+    year:{
+        textAlign:'center',
+        color:'white'
+    },
+    visit:{
+        textAlign:'center',
+        fontFamily:'Actor',
+        fontSize:16,
+        color:'#002d42',
+        marginTop:'3%'
+    },
+    web:{
+        textAlign:'center',
+        fontFamily:'monospace',
+        fontSize:18,
+        color:'#d98507',
+        marginTop:'2%'
+    },
+    subtitle:{
+        textAlign:'left',
+        fontFamily:'Actor',
+        fontSize:10,
+        color:'#002d42',
+        marginBottom:'30%'
+    },
+event:{
+    textAlign:'center',
+    color:'#800000',
+    fontSize:10
+},
+koode:{
+    textAlign:'center',
+    textAlign:'justify',
+    fontFamily:'Open Sans',
+    fontSize:14,
+    color:'#000000',
+    marginTop:'4%',
+    marginLeft:'4%'
+},
+});
+export default styles;
